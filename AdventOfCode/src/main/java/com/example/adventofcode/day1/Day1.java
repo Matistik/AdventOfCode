@@ -33,7 +33,7 @@ public class Day1 {
                 elfNumber++;
                 continue;
             }
-            elfCalories[elfNumber] = elfCalories[elfNumber] + Integer.parseInt(st);
+            elfCalories[elfNumber] += Integer.parseInt(st);
         }
 
         System.out.println(bigCaloryElf);
